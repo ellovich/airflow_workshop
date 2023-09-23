@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "airflow-workshop"
+version = "0.1.0"
+description = ""
+authors = ["Daniil Ellovich <daniilellovich@gmail.com>"]
+readme = "README.md"
+packages = [{include = "airflow_workshop"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.1.0"
+apache-airflow = "^2.7.1"
+apache-airflow-providers-postgres = "^5.6.1"
+isort = "^5.12.0"
+black = "^23.9.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
